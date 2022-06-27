@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Kdam+Thmor+Pro&display=swap');
+
+/* 
+body{
+
+  background-image: url(../public/images/loginbg.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  
+} */
+
+
+#mycard{
+position: relative;
+  max-width: 500px;
+  margin:  180px auto;
+  top: 25%;
+  opacity: .9;
+
+}
+
+#h11{
+  position: relative;
+  left: 5%;
+  /* top: -200%; */
+}
+
+
+#mycard #inputji{
+  position: relative;
+  
+  margin-left: 13%;
+}
+#myid{
+  padding-top: 3%;
+  font-family: 'Blaka';
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-left: 20%;
+}
+
+#buttonji{
+  margin-left: 33%;
+  margin-top: 3%;
+}
+
+#linking{
+  margin-left: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+        #hideMeAfter5Seconds {
+  animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
